@@ -116,6 +116,42 @@ h3 {
   gap: 12px;
 }
 
+.section-heading {
+  display: grid;
+  gap: 4px;
+  margin-bottom: 18px;
+}
+
+.section-heading p {
+  max-width: 640px;
+  margin: 0;
+  color: var(--muted);
+}
+
+.feature-summary {
+  padding: 22px;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.feature-item {
+  display: grid;
+  gap: 4px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 249, 237, 0.62);
+}
+
+.feature-item p {
+  margin: 0;
+  color: var(--muted);
+}
+
 .link-row {
   display: flex;
   min-height: 92px;
@@ -272,5 +308,13 @@ dd {
   section,
   .link-row {
     padding: 18px;
+  }
+
+  .feature-summary {
+    padding: 18px;
+  }
+
+  .feature-grid {
+    grid-template-columns: 1fr;
   }
 }
