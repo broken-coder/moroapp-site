@@ -129,7 +129,10 @@ h3 {
 }
 
 .feature-summary {
-  padding: 22px;
+  padding: 4px 0 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
 }
 
 .feature-grid {
@@ -311,7 +314,7 @@ dd {
   }
 
   .feature-summary {
-    padding: 18px;
+    padding: 4px 0 0;
   }
 
   .feature-grid {
